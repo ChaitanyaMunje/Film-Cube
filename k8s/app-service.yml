@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: film-cube-app-service
+  namespace: filmcube
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+
+  selector:
+    app: film-cube-app
+
+  type: LoadBalancer
