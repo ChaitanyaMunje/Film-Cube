@@ -29,4 +29,3 @@ jobs:
           push: true
           tags: |
             chaitanyamunje08/film-cube-application:latest
-            chaitanyamunje08/film-cube-application:${{ github.sha }}
