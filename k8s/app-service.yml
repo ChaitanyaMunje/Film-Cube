@@ -13,3 +13,7 @@ spec:
     app: film-cube-app
 
   type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
